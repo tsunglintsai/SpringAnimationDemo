@@ -22,6 +22,7 @@
 		BAEB8740191FD5A00047042D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEB873E191FD5A00047042D /* InfoPlist.strings */; };
 		BAEB8742191FD5A00047042D /* SpringAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */; };
 		BAEB874C191FD9650047042D /* engineering-graph-paper-small.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */; };
+		BAEB874F191FDB290047042D /* iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEB874E191FDB280047042D /* iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BAEB873F191FD5A00047042D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationDemoTests.m; sourceTree = "<group>"; };
 		BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "engineering-graph-paper-small.png"; sourceTree = "<group>"; };
+		BAEB874E191FDB280047042D /* iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		BAEB871C191FD5A00047042D /* SpringAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BAEB874D191FDB1D0047042D /* screenshot */,
 				BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */,
 				BAEB8728191FD5A00047042D /* Main.storyboard */,
 				BAEB872B191FD5A00047042D /* PGViewController.h */,
@@ -153,6 +156,14 @@
 				BAEB873E191FD5A00047042D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAEB874D191FDB1D0047042D /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB874E191FDB280047042D /* iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png */,
+			);
+			name = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEB874F191FDB290047042D /* iOS Simulator Screen shot May 11, 2014, 9.21.34 AM.png in Resources */,
 				BAEB872F191FD5A00047042D /* Images.xcassets in Resources */,
 				BAEB8721191FD5A00047042D /* InfoPlist.strings in Resources */,
 				BAEB872A191FD5A00047042D /* Main.storyboard in Resources */,
