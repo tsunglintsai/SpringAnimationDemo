@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEB8717191FD5A00047042D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB8716191FD5A00047042D /* Foundation.framework */; };
+		BAEB8719191FD5A00047042D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB8718191FD5A00047042D /* CoreGraphics.framework */; };
+		BAEB871B191FD5A00047042D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB871A191FD5A00047042D /* UIKit.framework */; };
+		BAEB8721191FD5A00047042D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEB871F191FD5A00047042D /* InfoPlist.strings */; };
+		BAEB8723191FD5A00047042D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8722191FD5A00047042D /* main.m */; };
+		BAEB8727191FD5A00047042D /* PGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8726191FD5A00047042D /* PGAppDelegate.m */; };
+		BAEB872A191FD5A00047042D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEB8728191FD5A00047042D /* Main.storyboard */; };
+		BAEB872D191FD5A00047042D /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB872C191FD5A00047042D /* PGViewController.m */; };
+		BAEB872F191FD5A00047042D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEB872E191FD5A00047042D /* Images.xcassets */; };
+		BAEB8736191FD5A00047042D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB8735191FD5A00047042D /* XCTest.framework */; };
+		BAEB8737191FD5A00047042D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB8716191FD5A00047042D /* Foundation.framework */; };
+		BAEB8738191FD5A00047042D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB871A191FD5A00047042D /* UIKit.framework */; };
+		BAEB8740191FD5A00047042D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEB873E191FD5A00047042D /* InfoPlist.strings */; };
+		BAEB8742191FD5A00047042D /* SpringAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAEB8739191FD5A00047042D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEB870B191FD5A00047042D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEB8712191FD5A00047042D;
+			remoteInfo = SpringAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAEB8713191FD5A00047042D /* SpringAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEB8716191FD5A00047042D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAEB8718191FD5A00047042D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAEB871A191FD5A00047042D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAEB871E191FD5A00047042D /* SpringAnimationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpringAnimationDemo-Info.plist"; sourceTree = "<group>"; };
+		BAEB8720191FD5A00047042D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAEB8722191FD5A00047042D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAEB8724191FD5A00047042D /* SpringAnimationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpringAnimationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BAEB8725191FD5A00047042D /* PGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAppDelegate.h; sourceTree = "<group>"; };
+		BAEB8726191FD5A00047042D /* PGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAppDelegate.m; sourceTree = "<group>"; };
+		BAEB8729191FD5A00047042D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAEB872B191FD5A00047042D /* PGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGViewController.h; sourceTree = "<group>"; };
+		BAEB872C191FD5A00047042D /* PGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGViewController.m; sourceTree = "<group>"; };
+		BAEB872E191FD5A00047042D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAEB8734191FD5A00047042D /* SpringAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEB8735191FD5A00047042D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BAEB873D191FD5A00047042D /* SpringAnimationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpringAnimationDemoTests-Info.plist"; sourceTree = "<group>"; };
+		BAEB873F191FD5A00047042D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEB8710191FD5A00047042D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB8719191FD5A00047042D /* CoreGraphics.framework in Frameworks */,
+				BAEB871B191FD5A00047042D /* UIKit.framework in Frameworks */,
+				BAEB8717191FD5A00047042D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB8731191FD5A00047042D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB8736191FD5A00047042D /* XCTest.framework in Frameworks */,
+				BAEB8738191FD5A00047042D /* UIKit.framework in Frameworks */,
+				BAEB8737191FD5A00047042D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEB870A191FD5A00047042D = {
+			isa = PBXGroup;
+			children = (
+				BAEB871C191FD5A00047042D /* SpringAnimationDemo */,
+				BAEB873B191FD5A00047042D /* SpringAnimationDemoTests */,
+				BAEB8715191FD5A00047042D /* Frameworks */,
+				BAEB8714191FD5A00047042D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEB8714191FD5A00047042D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB8713191FD5A00047042D /* SpringAnimationDemo.app */,
+				BAEB8734191FD5A00047042D /* SpringAnimationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEB8715191FD5A00047042D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB8716191FD5A00047042D /* Foundation.framework */,
+				BAEB8718191FD5A00047042D /* CoreGraphics.framework */,
+				BAEB871A191FD5A00047042D /* UIKit.framework */,
+				BAEB8735191FD5A00047042D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAEB871C191FD5A00047042D /* SpringAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB8725191FD5A00047042D /* PGAppDelegate.h */,
+				BAEB8726191FD5A00047042D /* PGAppDelegate.m */,
+				BAEB8728191FD5A00047042D /* Main.storyboard */,
+				BAEB872B191FD5A00047042D /* PGViewController.h */,
+				BAEB872C191FD5A00047042D /* PGViewController.m */,
+				BAEB872E191FD5A00047042D /* Images.xcassets */,
+				BAEB871D191FD5A00047042D /* Supporting Files */,
+			);
+			path = SpringAnimationDemo;
+			sourceTree = "<group>";
+		};
+		BAEB871D191FD5A00047042D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB871E191FD5A00047042D /* SpringAnimationDemo-Info.plist */,
+				BAEB871F191FD5A00047042D /* InfoPlist.strings */,
+				BAEB8722191FD5A00047042D /* main.m */,
+				BAEB8724191FD5A00047042D /* SpringAnimationDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAEB873B191FD5A00047042D /* SpringAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */,
+				BAEB873C191FD5A00047042D /* Supporting Files */,
+			);
+			path = SpringAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		BAEB873C191FD5A00047042D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB873D191FD5A00047042D /* SpringAnimationDemoTests-Info.plist */,
+				BAEB873E191FD5A00047042D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEB8712191FD5A00047042D /* SpringAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEB8745191FD5A00047042D /* Build configuration list for PBXNativeTarget "SpringAnimationDemo" */;
+			buildPhases = (
+				BAEB870F191FD5A00047042D /* Sources */,
+				BAEB8710191FD5A00047042D /* Frameworks */,
+				BAEB8711191FD5A00047042D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringAnimationDemo;
+			productName = SpringAnimationDemo;
+			productReference = BAEB8713191FD5A00047042D /* SpringAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAEB8733191FD5A00047042D /* SpringAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEB8748191FD5A00047042D /* Build configuration list for PBXNativeTarget "SpringAnimationDemoTests" */;
+			buildPhases = (
+				BAEB8730191FD5A00047042D /* Sources */,
+				BAEB8731191FD5A00047042D /* Frameworks */,
+				BAEB8732191FD5A00047042D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEB873A191FD5A00047042D /* PBXTargetDependency */,
+			);
+			name = SpringAnimationDemoTests;
+			productName = SpringAnimationDemoTests;
+			productReference = BAEB8734191FD5A00047042D /* SpringAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEB870B191FD5A00047042D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pg;
+				TargetAttributes = {
+					BAEB8733191FD5A00047042D = {
+						TestTargetID = BAEB8712191FD5A00047042D;
+					};
+				};
+			};
+			buildConfigurationList = BAEB870E191FD5A00047042D /* Build configuration list for PBXProject "SpringAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEB870A191FD5A00047042D;
+			productRefGroup = BAEB8714191FD5A00047042D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEB8712191FD5A00047042D /* SpringAnimationDemo */,
+				BAEB8733191FD5A00047042D /* SpringAnimationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEB8711191FD5A00047042D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB872F191FD5A00047042D /* Images.xcassets in Resources */,
+				BAEB8721191FD5A00047042D /* InfoPlist.strings in Resources */,
+				BAEB872A191FD5A00047042D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB8732191FD5A00047042D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB8740191FD5A00047042D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEB870F191FD5A00047042D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB8723191FD5A00047042D /* main.m in Sources */,
+				BAEB872D191FD5A00047042D /* PGViewController.m in Sources */,
+				BAEB8727191FD5A00047042D /* PGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEB8730191FD5A00047042D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEB8742191FD5A00047042D /* SpringAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAEB873A191FD5A00047042D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEB8712191FD5A00047042D /* SpringAnimationDemo */;
+			targetProxy = BAEB8739191FD5A00047042D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAEB871F191FD5A00047042D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEB8720191FD5A00047042D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAEB8728191FD5A00047042D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEB8729191FD5A00047042D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAEB873E191FD5A00047042D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEB873F191FD5A00047042D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEB8743191FD5A00047042D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAEB8744191FD5A00047042D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEB8746191FD5A00047042D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringAnimationDemo/SpringAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpringAnimationDemo/SpringAnimationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAEB8747191FD5A00047042D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringAnimationDemo/SpringAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpringAnimationDemo/SpringAnimationDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAEB8749191FD5A00047042D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpringAnimationDemo.app/SpringAnimationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringAnimationDemo/SpringAnimationDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpringAnimationDemoTests/SpringAnimationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BAEB874A191FD5A00047042D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpringAnimationDemo.app/SpringAnimationDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpringAnimationDemo/SpringAnimationDemo-Prefix.pch";
+				INFOPLIST_FILE = "SpringAnimationDemoTests/SpringAnimationDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEB870E191FD5A00047042D /* Build configuration list for PBXProject "SpringAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEB8743191FD5A00047042D /* Debug */,
+				BAEB8744191FD5A00047042D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEB8745191FD5A00047042D /* Build configuration list for PBXNativeTarget "SpringAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEB8746191FD5A00047042D /* Debug */,
+				BAEB8747191FD5A00047042D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAEB8748191FD5A00047042D /* Build configuration list for PBXNativeTarget "SpringAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEB8749191FD5A00047042D /* Debug */,
+				BAEB874A191FD5A00047042D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEB870B191FD5A00047042D /* Project object */;
+}
