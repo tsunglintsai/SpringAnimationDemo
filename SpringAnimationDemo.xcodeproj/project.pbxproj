@@ -21,6 +21,7 @@
 		BAEB8738191FD5A00047042D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB871A191FD5A00047042D /* UIKit.framework */; };
 		BAEB8740191FD5A00047042D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEB873E191FD5A00047042D /* InfoPlist.strings */; };
 		BAEB8742191FD5A00047042D /* SpringAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */; };
+		BAEB874C191FD9650047042D /* engineering-graph-paper-small.png in Resources */ = {isa = PBXBuildFile; fileRef = BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BAEB873D191FD5A00047042D /* SpringAnimationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpringAnimationDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BAEB873F191FD5A00047042D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAEB8741191FD5A00047042D /* SpringAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationDemoTests.m; sourceTree = "<group>"; };
+		BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "engineering-graph-paper-small.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,7 @@
 		BAEB871C191FD5A00047042D /* SpringAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BAEB8725191FD5A00047042D /* PGAppDelegate.h */,
-				BAEB8726191FD5A00047042D /* PGAppDelegate.m */,
+				BAEB874B191FD9650047042D /* engineering-graph-paper-small.png */,
 				BAEB8728191FD5A00047042D /* Main.storyboard */,
 				BAEB872B191FD5A00047042D /* PGViewController.h */,
 				BAEB872C191FD5A00047042D /* PGViewController.m */,
@@ -126,6 +127,8 @@
 		BAEB871D191FD5A00047042D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAEB8725191FD5A00047042D /* PGAppDelegate.h */,
+				BAEB8726191FD5A00047042D /* PGAppDelegate.m */,
 				BAEB871E191FD5A00047042D /* SpringAnimationDemo-Info.plist */,
 				BAEB871F191FD5A00047042D /* InfoPlist.strings */,
 				BAEB8722191FD5A00047042D /* main.m */,
@@ -232,6 +235,7 @@
 				BAEB872F191FD5A00047042D /* Images.xcassets in Resources */,
 				BAEB8721191FD5A00047042D /* InfoPlist.strings in Resources */,
 				BAEB872A191FD5A00047042D /* Main.storyboard in Resources */,
+				BAEB874C191FD9650047042D /* engineering-graph-paper-small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
